@@ -14,35 +14,44 @@ public class keyPresses : MonoBehaviour
     public Image pressTwo;
     public Image pressThree;
 
+    public GameObject directionalLight;
+
+    public Transform tOne;
+    public Transform tTwo;
+    public Transform tThree;
+
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Keypad1))
         {
-            PlayMusicOne();
             pressOne.color = Color.green;
             pressTwo.color = Color.white;
             pressThree.color = Color.white;
+            directionalLight.transform.rotation = tOne.rotation;
+            PlayMusicOne();
         }
 
         if(Input.GetKeyDown(KeyCode.Keypad2))
         {
-            PlayMusicTwo();
             pressTwo.color = Color.green;
             pressThree.color = Color.white;
             pressOne.color = Color.white;
+            directionalLight.transform.rotation = tTwo.rotation;
+            PlayMusicTwo();
         }
 
-        if( Input.GetKeyDown(KeyCode.Keypad3))
+        if ( Input.GetKeyDown(KeyCode.Keypad3))
         {
-            PlayMusicThree();
             pressThree.color = Color.green;
             pressOne.color = Color.white;
             pressTwo.color= Color.white;
+            directionalLight.transform.rotation = tThree.rotation;
+            PlayMusicThree();
         }
     }
 

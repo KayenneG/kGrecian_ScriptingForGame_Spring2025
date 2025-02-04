@@ -32,9 +32,9 @@ public class Jotunn : MonoBehaviour
 
     public void RotateJotun()
     {
-        jotunn.transform.Rotate(new Vector3(0f, 0f, -90f)); //this basically creatsed a new vector 3 in the moment, but it can only be used once --> good for testing, not for coding
+        //jotunn.transform.Rotate(new Vector3(0f, 0f, -90f)); //this basically creatsed a new vector 3 in the moment, but it can only be used once --> good for testing, not for coding
         // you could also create a variable of type Vector3 to pass into the rotate function
-
+        jotunn.transform.Rotate(rotationAmount);
     }
 
     public void Teleport()
