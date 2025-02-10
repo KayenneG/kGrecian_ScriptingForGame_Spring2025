@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Boi
+  - Boin't
+  - mid Boi
+  - Cannonball
+  - floor
+  - UpForce
+  - DownForce
   layers:
   - Default
   - TransparentFX
