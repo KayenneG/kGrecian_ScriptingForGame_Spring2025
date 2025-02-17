@@ -11,6 +11,13 @@ TagManager:
   - floor
   - UpForce
   - DownForce
+  - Lift
+  - Spawn
+  - Button
+  - Gear
+  - Ball
+  - UpForce2
+  - Destroy
   layers:
   - Default
   - TransparentFX
