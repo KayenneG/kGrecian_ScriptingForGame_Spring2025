@@ -35,16 +35,16 @@ public class OrbController : MonoBehaviour
     public void Hide()
     {
         this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 0);
-        this.gameObject.GetComponent<ParticleSystem>().Stop();
+        transform.GetChild(0).gameObject.SetActive(false);
 
         Invoke("Show", 5f);
         //I am intentionally making this over 1f becasue I think its more fun that way
-        //(also because I made them semi-transparent instead of toggling the mest, so you 
-        //haveto follow them, kinds. I think its cool).
+        //(also because I made them semi-transparent instead of toggling the mesh, so you 
+        //haveto follow them, kinda. I think its cool).
     }
     void Show()
     {
         this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(0, 255, 220, 0);
-        this.gameObject.GetComponent<ParticleSystem>().Play();
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 }

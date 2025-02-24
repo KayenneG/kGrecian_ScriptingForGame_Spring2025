@@ -29,7 +29,9 @@ public class SkullController : MonoBehaviour
 
     public void SkullExplode()
     {
-        this.gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
+        this.gameObject.GetComponent<MeshRenderer>().material.color = Color.black;
+        //I know the assignemnt said to do red but black is cool casue it gets set one fire :')
+        transform.GetChild(0).gameObject.SetActive(true);
         Invoke("Destroy", 1f);
     }
 
