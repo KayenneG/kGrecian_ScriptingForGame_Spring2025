@@ -18,6 +18,7 @@ TagManager:
   - Ball
   - UpForce2
   - Destroy
+  - Orb
   layers:
   - Default
   - TransparentFX
