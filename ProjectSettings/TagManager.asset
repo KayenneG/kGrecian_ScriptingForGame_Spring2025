@@ -19,6 +19,8 @@ TagManager:
   - UpForce2
   - Destroy
   - Orb
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
