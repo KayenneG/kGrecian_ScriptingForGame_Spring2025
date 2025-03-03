@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\documents\\github\\kgrecian_scriptingforgame_spring2025\\kgrecian_scriptingforgame_spring2025\\assets\\week 6\\scripts\\player inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|solutionrelative:assets\\week 6\\scripts\\player inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\documents\\github\\kgrecian_scriptingforgame_spring2025\\kgrecian_scriptingforgame_spring2025\\assets\\week 6\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|solutionrelative:assets\\week 6\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\assets\\week 6\\scripts\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D69FD-9E80-749C-D084-D87BEB32912F}|Assembly-CSharp.csproj|solutionrelative:assets\\week 6\\scripts\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Key.cs",
+              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Key.cs",
+              "RelativeDocumentMoniker": "Assets\\Week 6\\Scripts\\Key.cs",
+              "ToolTip": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Key.cs",
+              "RelativeToolTip": "Assets\\Week 6\\Scripts\\Key.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:29:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Week 6\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Week 6\\Scripts\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T19:15:37.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Player Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Week 6\\Scripts\\Player Inventory.cs",
+              "ToolTip": "C:\\Users\\StudentorInstructor\\Documents\\GitHub\\kGrecian_ScriptingForGame_Spring2025\\kGrecian_ScriptingForGame_Spring2025\\Assets\\Week 6\\Scripts\\Player Inventory.cs",
+              "RelativeToolTip": "Assets\\Week 6\\Scripts\\Player Inventory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:29:33.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
