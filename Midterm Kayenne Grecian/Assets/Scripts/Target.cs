@@ -26,7 +26,8 @@ public class Target : MonoBehaviour
         }
         else if (targetType == TargetType.Movable)
         {
-            this.GetComponent<MeshRenderer>().material.color = Color.red;
+            this.GetComponent<MeshRenderer>().material.color = Color.black;
+            //Fix: color red is already used by door/key, so now it black cause emo target
         }
         else if (targetType == TargetType.DestroyableWithSound)
         {
@@ -36,12 +37,15 @@ public class Target : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Ballet")
+        if (other.gameObject.tag == "Bullet")
+            //Fix: There's a 'u' in Bullet
         {
-            
-            
-            if(targetType == TargetType.Destroyable)
+            Destroy(other.gameObject);
+            //Fix: bullet go bye-bye
+
+            if (targetType == TargetType.Destroyable)
             {
+                
                 gameObject.SetActive(false);
 
             }
@@ -55,6 +59,8 @@ public class Target : MonoBehaviour
             else if (targetType == TargetType.DestroyableWithSound)
             {
                 targetSound.Play();
+                Debug.Log("Target Destroy Sound Playing!");
+                //Fix (kind of): have to actualy adda sound in for the code to progress to the next line
                 gameObject.SetActive(false);
             }
         }

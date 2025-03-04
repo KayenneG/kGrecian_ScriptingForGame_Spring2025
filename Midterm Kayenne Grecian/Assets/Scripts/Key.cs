@@ -21,7 +21,8 @@ public class Key : MonoBehaviour
         }
         else if (keyColor == KeyColor.Blue)
         {
-            this.GetComponent<MeshRenderer>().material.color = Color.yellow;
+            this.GetComponent<MeshRenderer>().material.color = Color.blue;
+            //Fix: Hes NoT YELLOW >:(
         }
         else if (keyColor == KeyColor.Red)
         {
@@ -40,7 +41,8 @@ public class Key : MonoBehaviour
                 if (player.hasGreenKey == false)
                 {
                     player.hasGreenKey = true;
-                    Destroy(player.gameObject);
+                    Destroy(gameObject);
+                    //Fix: Why would you destroy the player D: They've done neothing wrong
                 }
             }
             else if (keyColor == KeyColor.Blue)
@@ -51,9 +53,11 @@ public class Key : MonoBehaviour
                     Destroy(gameObject);
                 }
             }
-            else if (keyColor == KeyColor.Blue)
+            else if (keyColor == KeyColor.Red)
+            //Fix: hey wait a minute.... this bool should be for the red key... -.-
             {
-                if (player.hasRedKey == true)
+                if (player.hasRedKey == false)
+                    //Fix: well, the bool has to first be false to be set to true... so lets make it false
                 {
                     player.hasRedKey = true;
                     Destroy(gameObject);
