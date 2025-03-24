@@ -6,29 +6,18 @@ using UnityEngine;
 
 public class Reset : MonoBehaviour
 {
-    public List<Target> targets = new List<Target>();
+    public List<Target> targets = new List<Target>();//created a new list with the name Targets
     void Start()
     {
-        targets = FindObjectsByType<Target>(FindObjectsSortMode.None).ToList();
+        targets = FindObjectsByType<Target>(FindObjectsSortMode.None).ToList();//adds all objects in the scene with the target script component to the targets list
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.R))
-            Debug.Log("R");
+        if (Input.GetKey(KeyCode.R))//if the R key is pressed;
         {
-
-            for (int i = 0; i < targets.Count; i++)
-            {
-                targets[i].GetComponent<GameObject>().SetActive(true);
-            }
-
-            /*foreach(Target target in targets)
-            {
-                target.GetComponent<GameObject>().SetActive(true);
-               
-                Debug.Log("ResetTarget");
-            }*/
+            foreach (Target t in targets)//every object listed in the targets list
+                t.Show();//has has the Show void called and run
         }
     }
 }
