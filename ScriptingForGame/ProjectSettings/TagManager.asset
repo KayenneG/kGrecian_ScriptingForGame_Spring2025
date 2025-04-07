@@ -21,11 +21,12 @@ TagManager:
   - Orb
   - Key
   - Door
+  - VisionCone
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - IgnoreNavObsticle
   - Water
   - UI
   - 
