@@ -82,7 +82,7 @@ public class CountTotal : MonoBehaviour
         int finalNumber = listScript.orbSpawnRandom + listScript.bomb.Count;
         Debug.Log("Final Number: " + finalNumber);
 
-        endNumberText.text = finalNumber.ToString();
+        endNumberText.text = "beeboosndfksjdnf" + finalNumber.ToString();
         endNumber.SetActive(true);
 
         if(countInt == finalNumber)
