@@ -22,6 +22,9 @@ TagManager:
   - Key
   - Door
   - VisionCone
+  - Verticle
+  - Horizontal
+  - Top
   layers:
   - Default
   - TransparentFX
