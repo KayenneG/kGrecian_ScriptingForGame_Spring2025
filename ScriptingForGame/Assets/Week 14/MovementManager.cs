@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovementManager : MonoBehaviour
 {
     public Vector3 movement;
-    public int speed = 1;
+    int speed = 15;
 
     void Start()
     {
@@ -18,7 +18,7 @@ public class MovementManager : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("hit");
+        //Debug.Log("hit");
 
         if (other.gameObject.tag == "Verticle")
         {
