@@ -2614,25 +2614,25 @@ MonoBehaviour:
   finalTime: {fileID: 1115928767}
   misclick: {fileID: 603976638}
   leaf: {fileID: 1193758788}
-  oneCount: 5
+  oneCount: 20
   onePrefab: {fileID: 2597509685913320015, guid: f296b616c41d83c42afe3e4a136f2a7a,
     type: 3}
-  twoCount: 5
+  twoCount: 20
   twoPrefab: {fileID: 7836571666539813007, guid: 0da135507217f454397949e9d573c963,
     type: 3}
   threeCount: 1
   threePrefab: {fileID: 1668984988166010951, guid: 459699b72d1f96849b76323384ba2bb4,
     type: 3}
-  fourCount: 5
+  fourCount: 20
   fourPrefab: {fileID: 8819060783428344370, guid: ba804a6b878f8784db0023c00f527b78,
     type: 3}
-  fiveCount: 5
+  fiveCount: 20
   fivePrefab: {fileID: 2648037176787293981, guid: 1f1ae9289f356864ca9f9d4c8edb5bd1,
     type: 3}
-  sixCount: 5
+  sixCount: 20
   sixPrefab: {fileID: 7520818285831798927, guid: ebd2ed1c86bc12e4094cdd674b74f63e,
     type: 3}
-  sevenCount: 5
+  sevenCount: 20
   sevenPrefab: {fileID: 3473491704027866847, guid: 6eb778e54de2e134bb71677395aeb789,
     type: 3}
 --- !u!4 &1882771360
@@ -2657,8 +2657,8 @@ SceneRoots:
   - {fileID: 1781889551}
   - {fileID: 668598707}
   - {fileID: 1481994366}
-  - {fileID: 86831886}
   - {fileID: 120586517}
   - {fileID: 624855663}
   - {fileID: 1882771360}
   - {fileID: 761081102}
+  - {fileID: 86831886}
